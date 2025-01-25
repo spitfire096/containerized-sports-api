@@ -53,7 +53,7 @@ sports-api-management/
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/ifeanyiro9/containerized-sports-api.git
+git clone https://github.com/spitfire096/containerized-sports-api.git
 cd containerized-sports-api
 ```
 ### **Create ECR Repo**
@@ -136,9 +136,4 @@ curl https://<api-gateway-id>.execute-api.us-east-1.amazonaws.com/prod/sports
 Setting up a scalable, containerized application with ECS
 Creating public APIs using API Gateway.
 
-### **Future Enhancements**
-Add caching for frequent API requests using Amazon ElastiCache
-Add DynamoDB to store user-specific queries and preferences
-Secure the API Gateway using an API key or IAM-based authentication
-Implement CI/CD for automating container deployments
 
